@@ -1,14 +1,14 @@
-##Minesweeper Algorithm Competition
+## Minesweeper Algorithm Competition
 
-###Overview
+### Overview
 This repository contains the source code for the Minesweeper Algorithm Competition.
 Unlike traditional Minesweeper, the objective here is to find as many mines as possible.
 Develop your own mine detection algorithm and compete to achieve the highest score!
 
-###Game Screen
+### Game Screen
 <img width="1002" height="656" alt="image" src="https://github.com/user-attachments/assets/45967952-c2b5-40a2-b6c5-b2df4e2ad1a6" />
 
-###How to Participate
+### How to Participate
 Implement your solution in the participant project provided in this solution.
 
 Submit the resulting DLL file to the organizer.
@@ -17,7 +17,7 @@ All submitted DLLs will be pre-validated for potential cheating or abuse before 
 
 Submissions must be received at least 48 hours before the competition start time.
 
-###Development Guidelines
+### Development Guidelines
 <img width="485" height="589" alt="image" src="https://github.com/user-attachments/assets/5c4d5372-dd88-459a-811e-c36154d299af" />
 
 Note: Only C# is allowed for this competition.
@@ -42,7 +42,7 @@ If a player successfully finds a mine, they get another turn. Turns continue unt
 Returns the coordinate (as a linear array index) of the tile to reveal.
 The current map status is provided as a parameter.
 
-###Restrictions###
+### Restrictions
 Use of external communications or any libraries that maliciously or directly manipulate the algorithm is prohibited.
 All other forms of pure computation are allowed.
 
@@ -60,7 +60,7 @@ All other forms of pure computation are allowed.
 - Attaching threads to the main process
 - External algorithm libraries for mine detection (subject to organizer's review)
 
-##MineType Enum Information##
+### MineType Enum Information
 
 public enum MineType
 {
